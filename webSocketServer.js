@@ -304,10 +304,6 @@ function Socket() {
           }
           newConcept(partyId, nextCreator);
 
-          partys.get(partyId).currentCreator =
-          partys.get(partyId).users[
-            Math.floor(Math.random() * partys.get(partyId).users.length)
-          ];
 
         }
         partys
