@@ -59,7 +59,7 @@ services:
         - DB_HOST=52.44.194.124
         - DB_USER=root
         - DB_PASSWORD=test
-        - DB_NAME=figurineItOut
+        - DB_NAME=figurineitout
         - DB_PORT=3306
         - PORT=3000
         - NODE_ENV=development
