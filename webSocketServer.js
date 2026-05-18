@@ -24,6 +24,7 @@ const objectService = require("./services/objectService");
 //TODO if I have time left, add a minimun of 2 players for concepts to start appearing
 const partys = new Map();
 function Socket() {
+  console.log("WebSocketStart")
   const port = process.env.WSPORT || 8090;
   const defaultTimer = 10 * 60 * 1000;
   const mainGuessList = [];
