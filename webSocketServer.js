@@ -285,6 +285,7 @@ function Socket() {
     });
 
     ws.on("close", function close(code, reason) {
+      console.log("closed")
       if (partyId != -1) {
         if (partys.get(partyId)?.users.length == 1) {
           clearTimeout(partys.get(partyId).onTimeRunOut);
