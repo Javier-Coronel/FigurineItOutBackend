@@ -123,6 +123,7 @@ function Socket() {
     });
   }
   wss.on("connection", async function connection(ws, req) {
+    console.log("UserConnected")
     let partyId = -1;
     let player = "";
     if (req.url.includes("user")) {
