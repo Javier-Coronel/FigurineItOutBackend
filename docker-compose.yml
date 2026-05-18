@@ -56,7 +56,7 @@ services:
       depends_on:
         - db
       environment:
-        - DB_HOST=localhost
+        - DB_HOST=172.31.21.204
         - DB_USER=root
         - DB_PASSWORD=test
         - DB_NAME=figurineitout
