@@ -55,7 +55,6 @@ services:
         - backend
       depends_on:
         - db
-      environment:
       healthcheck:
         test: ["CMD", "curl", "-f", "http://localhost:${EXPRESS_PORT}"]
         interval: 30s
